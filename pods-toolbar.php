@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Pods Toolbar
- * Description:
+ * Description: Adds a Pods menu to the Admin Toolbar in the site (not in the admin) and allows for faster navigation within the Pods Framework plugin.
  * Author: Nikhil Vimal
  * Author URI: http://nik.techvoltz.com
  * Version: 1.0
@@ -112,7 +112,7 @@ class Pods_Admin_Bar {
 }
 
 function load_pods_admin_bar() {
-	//Check if plugin is activated, or else it does not work!
+	//Check if plugin is activated, or else...
 	if( is_plugin_active( 'pods/init.php' ) ) {
 
 		return Pods_Admin_Bar::init();
