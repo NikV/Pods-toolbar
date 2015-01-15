@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Pods Admin Bar Extension
+ * Plugin Name: Pods Toolbar
  * Description:
  * Author: Nikhil Vimal
  * Author URI: http://nik.techvoltz.com
@@ -11,6 +11,7 @@
 
 class Pods_Admin_Bar {
 
+	//The Pods Toolbar Instance
 	public static function init() {
 		static $instance = false;
 		if ( ! $instance ) {
