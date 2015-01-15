@@ -40,6 +40,15 @@ class Pods_Admin_Bar {
 					'title' => 'Pods',
 				)
 			);
+			
+			//clear cache
+			$wp_admin_bar->add_node( array(
+					'parent' => 'pods_bar',
+					'id'    => 'pods_bar_cache_clear',
+					'title' => 'Clear Cache',
+					'href'  => admin_url( 'page=pods-settings&pods_clearcache=1' ),
+				)
+			);
 
 			// Add New Node
 			$wp_admin_bar->add_node( array(
