@@ -42,7 +42,7 @@ class Pods_Admin_Bar {
 				)
 			);
 			
-			//clear cache
+			// Clear Cache in Pods
 			$wp_admin_bar->add_node( array(
 					'parent' => 'pods_bar',
 					'id'    => 'pods_bar_cache_clear',
