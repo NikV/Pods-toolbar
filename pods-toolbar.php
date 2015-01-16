@@ -5,7 +5,7 @@
  * Author: Nikhil Vimal
  * Author URI: http://nik.techvoltz.com
  * Version: 1.0
- * Plugin URI:
+ * Plugin URI: https://wordpress.org/plugins/pods-toolbar/
  * License: GNU GPLv2+
  */
 
