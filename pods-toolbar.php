@@ -73,7 +73,7 @@ class Pods_Admin_Bar {
 			$wp_admin_bar->add_node( array(
 					'parent' => 'pods_bar',
 					'id'    => 'pods_bar_components',
-					'title' => 'Mange Components',
+					'title' => 'Manage Components',
 					'href'  => admin_url('admin.php?page=pods-components'),
 				)
 			);
